@@ -14,5 +14,18 @@ Plug 'https://github.com/ryanoasis/vim-devicons' -- For nice icons inside file e
 
 Plug('akinsho/toggleterm.nvim', {tag = '*'}) -- For a terminal toggle
 
+-- NVIM-CMP plugin requirements
+Plug 'neovim/nvim-lspconfig'
+Plug 'hrsh7th/cmp-nvim-lsp'
+Plug 'hrsh7th/cmp-buffer'
+Plug 'hrsh7th/cmp-path'
+Plug 'hrsh7th/cmp-cmdline'
+Plug 'hrsh7th/nvim-cmp'
+
+-- Snippy requirements
+Plug 'dcampos/nvim-snippy'
+Plug 'dcampos/cmp-snippy'
+
+
 vim.call('plug#end')
 
