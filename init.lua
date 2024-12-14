@@ -4,4 +4,5 @@ require "user.plugins"
 require "user.toggleterm"
 require "user.nvimcmp"
 require "user.nvimlsp"
+require "user.tokyonight"
 

@@ -14,3 +14,6 @@ vim.g.mapleader = ","
 -- Encoding
 vim.opt.encoding = "utf-8"
 
+-- Enable true colors
+vim.opt.termguicolors = true
+

@@ -26,6 +26,8 @@ Plug 'hrsh7th/nvim-cmp'
 Plug 'dcampos/nvim-snippy'
 Plug 'dcampos/cmp-snippy'
 
+-- Add some colors
+Plug 'ghifarit53/tokyonight-vim'
 
 vim.call('plug#end')
 
