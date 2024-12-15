@@ -21,3 +21,12 @@ require('lspconfig')['rust_analyzer'].setup {
     capabilities = capabilities,
 }
 
+-- Docker support
+require('lspconfig')['dockerls'].setup {
+    capabilities = capabilities,
+}
+
+require('lspconfig')['docker_compose_language_service'].setup {
+    capabilities = capabilities,
+}
+
