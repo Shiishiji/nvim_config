@@ -30,3 +30,20 @@ require('lspconfig')['docker_compose_language_service'].setup {
     capabilities = capabilities,
 }
 
+-- Web support -> HTML, JS, CSS
+
+-- HTML
+require('lspconfig')['html'].setup {
+    capabilities = capabilities,
+}
+
+-- JS / TS
+require('lspconfig')['eslint'].setup {
+    capabilities = capabilities,
+}
+
+-- CSS
+require('lspconfig')['cssls'].setup {
+    capabilities = capabilities,
+}
+
