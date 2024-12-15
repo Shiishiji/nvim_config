@@ -47,3 +47,14 @@ require('lspconfig')['cssls'].setup {
     capabilities = capabilities,
 }
 
+-- Powershell (ps1)
+if package.config:sub(1,1) == "\\" then 
+require('lspconfig')['powershell_es'].setup {
+    bundle_path = 'c:\\w\\PowerShellEditorServices',
+}
+else
+require('lspconfig')['powershell_es'].setup {
+    bundle_path = '/usr/bin/PowerShellEditorServices',
+}
+end
+
