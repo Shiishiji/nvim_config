@@ -9,7 +9,9 @@ toggleterm.setup({
     direction = "horizontal",
     start_in_insert = true,
     insert_mappings = true,
-    shell = vim.o.shell,
+    -- shell = vim.o.shell,
+    shell = "pwsh.exe",
+
 })
 
 function _G.set_terminal_keymaps()
