@@ -54,7 +54,7 @@ require('lspconfig')['powershell_es'].setup {
 }
 else
 require('lspconfig')['powershell_es'].setup {
-    bundle_path = '/usr/bin/PowerShellEditorServices',
+    bundle_path = 'plugin/lsp/PowerShellEditorServices',
 }
 end
 
@@ -66,6 +66,7 @@ require('lspconfig')['lua_ls'].setup {
 -- Groovy
 require('lspconfig')['groovyls'].setup {
     capabilities = capabilities,
+    cmd = { "java", "-jar", "plugin/lsp/groovy-language-server-all.jar" },
 }
 
 -- YAML

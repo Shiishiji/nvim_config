@@ -9,8 +9,8 @@ toggleterm.setup({
     direction = "horizontal",
     start_in_insert = true,
     insert_mappings = true,
-    -- shell = vim.o.shell,
-    shell = "pwsh.exe",
+    shell = vim.o.shell,
+    -- shell = "pwsh.exe",
 
 })
 
