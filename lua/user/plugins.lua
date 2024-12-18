@@ -29,5 +29,8 @@ Plug 'dcampos/cmp-snippy'
 -- Add some colors
 Plug 'ghifarit53/tokyonight-vim'
 
+-- Project management
+Plug 'leafOfTree/vim-project'
+
 vim.call('plug#end')
 

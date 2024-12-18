@@ -11,7 +11,12 @@ map("v", "<C-_", "gc", opts)
 
 -- Terminals
 
-vim.api.nvim_set_keymap("n", "<leader>th", ":ToggleTerm direction=horizontal<CR>", { noremap = true, silent = true })
-vim.api.nvim_set_keymap("n", "<leader>tv", ":ToggleTerm size=80 direction=vertical<CR>", { noremap = true, silent = true })
-vim.api.nvim_set_keymap("n", "<leader>tf", ":ToggleTerm direction=float<CR>", { noremap = true, silent = true })
+vim.api.nvim_set_keymap("n", "<leader>th", ":ToggleTerm direction=horizontal<CR>", opts)
+vim.api.nvim_set_keymap("n", "<leader>tv", ":ToggleTerm size=80 direction=vertical<CR>", opts)
+vim.api.nvim_set_keymap("n", "<leader>tf", ":ToggleTerm direction=float<CR>", opts)
+
+-- Projects management
+
+vim.api.nvim_set_keymap("n", "<c-f>", ":ProjectFindInFiles<cr>", opts)
+vim.api.nvim_set_keymap("n", "<leader>f", ":ProjectSearchFiles<cr>", opts)
 

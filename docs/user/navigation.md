@@ -15,3 +15,13 @@ You can use regex in search :)
 
 :set incsearch -> start to search before confirm
 
+## Projects management
+
+Open and add projects with :Project <path>
+
+Create new project from git / empty with :ProjectNew <path>
+
+Look through all project files with :ProjectSearchInFiles (Shortcut -> <C - f>)
+
+Find file by name :ProjectSearchFiles (Shortcut -> <leader>f>)
+
