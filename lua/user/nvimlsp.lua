@@ -63,3 +63,8 @@ require('lspconfig')['lua_ls'].setup {
     capabilities = capabilities,
 }
 
+-- Groovy
+require('lspconfig')['groovyls'].setup {
+    capabilities = capabilities,
+}
+
