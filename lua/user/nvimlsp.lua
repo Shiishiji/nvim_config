@@ -73,3 +73,8 @@ require('lspconfig')['yamlls'].setup {
     capabilities = capabilities,
 }
 
+-- Bash
+require('lspconfig')['bashls'].setup {
+    capabilities = capabilities,
+}
+

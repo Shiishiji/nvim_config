@@ -14,3 +14,6 @@ npm i -g @microsoft/compose-language-service
 npm i -g vscode-langservers-extracted
 # yaml
 npm i -g yaml-language-server
+# bash
+npm i -g bash-language-server
+
