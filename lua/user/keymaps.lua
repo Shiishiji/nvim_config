@@ -20,3 +20,6 @@ vim.api.nvim_set_keymap("n", "<leader>tf", ":ToggleTerm direction=float<CR>", op
 vim.api.nvim_set_keymap("n", "<c-f>", ":ProjectFindInFiles<cr>", opts)
 vim.api.nvim_set_keymap("n", "<leader>f", ":ProjectSearchFiles<cr>", opts)
 
+-- Git Terminal
+vim.api.nvim_set_keymap("n", "<leader>k", "<cmd> lua _LAZYGIT_TOGGLE()<cr>", opts)
+
