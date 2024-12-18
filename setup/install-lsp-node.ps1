@@ -5,11 +5,12 @@ nvm install 23.4.0
 nvm use 23.4.0
 
 # php
-npm install -g intelephense
+npm i -g intelephense
 # docker
-npm install -g dockerfile-language-server-nodejs
+npm i -g dockerfile-language-server-nodejs
 # docker-compose
-npm install -g @microsoft/compose-language-service
+npm i -g @microsoft/compose-language-service
 # html / js / ts
 npm i -g vscode-langservers-extracted
-# 
+# yaml
+npm i -g yaml-language-server

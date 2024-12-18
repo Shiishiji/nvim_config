@@ -68,3 +68,8 @@ require('lspconfig')['groovyls'].setup {
     capabilities = capabilities,
 }
 
+-- YAML
+require('lspconfig')['yamlls'].setup {
+    capabilities = capabilities,
+}
+
