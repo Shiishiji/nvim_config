@@ -58,3 +58,8 @@ require('lspconfig')['powershell_es'].setup {
 }
 end
 
+-- Lua
+require('lspconfig')['lua_ls'].setup {
+    capabilities = capabilities,
+}
+
