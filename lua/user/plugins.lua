@@ -32,5 +32,8 @@ Plug 'ghifarit53/tokyonight-vim'
 -- Project management
 Plug 'leafOfTree/vim-project'
 
+-- Lazygit
+Plug 'kdheepak/lazygit.nvim'
+
 vim.call('plug#end')
 
