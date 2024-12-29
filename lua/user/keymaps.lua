@@ -17,9 +17,17 @@ vim.api.nvim_set_keymap("n", "<leader>tf", ":ToggleTerm direction=float<CR>", op
 
 -- Projects management
 
-vim.api.nvim_set_keymap("n", "<c-f>", ":ProjectFindInFiles<cr>", opts)
-vim.api.nvim_set_keymap("n", "<leader>f", ":ProjectSearchFiles<cr>", opts)
+vim.api.nvim_set_keymap("n", "<c-f>", ":ProjectFindInFiles<CR>", opts)
+vim.api.nvim_set_keymap("n", "<leader>f", ":ProjectSearchFiles<CR>", opts)
 
 -- Git Terminal
-vim.api.nvim_set_keymap("n", "<leader>k", "<cmd> lua _LAZYGIT_TOGGLE()<cr>", opts)
+vim.api.nvim_set_keymap("n", "<leader>k", ":LazyGit<CR>", opts)
+
+-- LSP
+vim.keymap.set('n', '<leader><space>', vim.lsp.buf.hover, { buffer = true, desc = "LSP Hover" })
+
+-- Switching buffers
+vim.api.nvim_set_keymap("n", "<leader>n", ":bnext<CR>", opts)
+vim.api.nvim_set_keymap("n", "<leader>p", ":bprevious<CR>", opts)
+vim.api.nvim_set_keymap("n", "<leader>d", ":bdelete<CR>", opts)
 

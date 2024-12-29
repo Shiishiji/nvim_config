@@ -66,7 +66,7 @@ require('lspconfig')['lua_ls'].setup {
 -- Groovy
 require('lspconfig')['groovyls'].setup {
     capabilities = capabilities,
-    cmd = { "java", "-jar", "plugin/lsp/groovy-language-server-all.jar" },
+    cmd = { "java", "-jar", "~/.config/nvim/plugin/lsp/groovy-language-server-all.jar" },
 }
 
 -- YAML
