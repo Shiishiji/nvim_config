@@ -6,7 +6,12 @@ return {
   --     colorscheme = "tokyonight-night",
   --   },
   -- },
-  { "Mofiqul/dracula.nvim" },
+  {
+    "Mofiqul/dracula.nvim",
+    opts = {
+      transparent_bg = true,
+    },
+  },
   {
     "LazyVim/LazyVim",
     opts = {
