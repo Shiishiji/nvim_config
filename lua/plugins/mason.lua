@@ -1,0 +1,30 @@
+return {
+  {
+    "williamboman/mason.nvim",
+    opts = {
+      ensure_installed = {
+        "css-lsp",
+        "docker-compose-language-service",
+        "dockerfile-language-server",
+        "gopls",
+        "hadolint",
+        "helm-ls",
+        "html-lsp",
+        "json-lsp",
+        "kotlin-language-server",
+        "lua-language-server",
+        "markdown-toc",
+        "markdownlint-cli2",
+        "marksman",
+        "php-cs-fixer",
+        "phpactor",
+        "pyright",
+        "shfmt",
+        "stylua",
+        "svelte-language-server",
+        "typescript-language-server",
+        "yaml-language-server",
+      },
+    },
+  },
+}
