@@ -1,6 +1,8 @@
 return {
   "snacks.nvim",
   opts = {
+    image = { enabled = true },
+    lazygit = { enabled = true },
     dashboard = {
       preset = {
         pick = function(cmd, opts)
