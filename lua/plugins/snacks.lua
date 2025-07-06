@@ -18,12 +18,6 @@ return {
 ⢀⣿⠃⡴⠃⢀⡠⠞⠋⠀⠀⠼⠋⠀⠸⡇⠻⠀⠈⠃⠀⣧⢋⣼⣿⣿⣿⣷⣆⠀⠈⠁⠀⠟⠁⡟⠀⠈⠻⠀⠀⠉⠳⢦⡀⠈⢣⠈⢿⡄
 ⣸⠇⢠⣷⠞⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠻⠿⠿⠋⠀⢻⣿⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠙⢾⣆⠈⣷
 ⡟⠀⡿⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣴⣶⣤⡀⢸⣿⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢻⡄⢹
-██████████████████████████████████████████████████
-█                                                █
-█                    WELCOME                     █
-█                                                █
-██████████████████████████████████████████████████
-
  ]],
         -- stylua: ignore
         ---@type snacks.dashboard.Item[]
@@ -36,7 +30,7 @@ return {
           { icon = " ", key = "s", desc = "Restore Session", section = "session" },
           { icon = " ", key = "x", desc = "Lazy Extras", action = ":LazyExtras" },
           { icon = "󰒲 ", key = "l", desc = "Lazy", action = ":Lazy" },
-          { icon = " ", key = "q", desc = "Erase human race", action = ":qa" },
+          { icon = " ", key = "q", desc = "Done for today", action = ":qa" },
         },
       },
     },
