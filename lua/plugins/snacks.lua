@@ -2,7 +2,10 @@ return {
   "snacks.nvim",
   opts = {
     image = { enabled = true },
-    lazygit = { enabled = true },
+    lazygit = {
+      enabled = true,
+      configure = true,
+    },
     dashboard = {
       preset = {
         pick = function(cmd, opts)
@@ -36,5 +39,24 @@ return {
         },
       },
     },
+
+    -- styles start
+
+    styles = {
+      lazygit = {
+        border = "rounded",
+        width = 0.9,
+        height = 0.9,
+        wo = {
+          winhighlight = table.concat({
+            "Normal:SnacksLazyGitBG",
+            "NormalFloat:SnacksLazyGitBG",
+            "FloatBorder:FloatBorder", -- keep existing border highlight
+          }, ","),
+        },
+      },
+    },
+
+    -- / styles end
   },
 }
