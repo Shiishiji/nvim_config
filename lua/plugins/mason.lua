@@ -25,6 +25,10 @@ return {
         "typescript-language-server",
         "yaml-language-server",
       },
+      registries = {
+        "github:mason-org/mason-registry",
+        "github:Crashdummyy/mason-registry",
+      },
     },
   },
 }
